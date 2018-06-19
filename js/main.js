@@ -1,18 +1,3 @@
-function preload() {
-  soundFormats('ogg');
-  mySound = loadSound('https://raw.githubusercontent.com/TheHalfinStream/Group-Game-Repo/master/sicc.ogg');
-}
-
-
-function setup() {
-	 mySound.setVolume(0.9);
-  mySound.loop();
-}
-
-function draw() {
-
-}
-
 var grid;
 var game;
 var player1, player2;
