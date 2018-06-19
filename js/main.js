@@ -1,3 +1,17 @@
+function preload() {
+  soundFormats('ogg');
+  mySound = loadSound('https://raw.githubusercontent.com/TheHalfinStream/Group-Game-Repo/master/sicc.ogg');
+}
+
+
+function setup() {
+	 mySound.setVolume(0.9);
+  mySound.loop();
+}
+
+function draw() {
+
+}
 
 var grid;
 var game;
@@ -26,8 +40,8 @@ var tankSpeed = 175;
 var rotationSpeed = 7;
 var bulletDelay = 7;
 var bulletSpeed = 175;
-var bulletTTL = 10000;
-var maxBullets = 10;
+var bulletTTL = 20000;
+var maxBullets = 100;
 var bullets;
 var isGameOver;
 var isStartScreen = true;
