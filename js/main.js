@@ -5,8 +5,6 @@ function preload() {
 
 
 function setup() {
-  createCanvas(400, 400);
-	noStroke();
 	 mySound.setVolume(0.9);
   mySound.loop();
 }
