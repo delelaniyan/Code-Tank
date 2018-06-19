@@ -109,7 +109,7 @@ h2, #scores {
 #startScreen {
   width: inherit;
   height: inherit;
-  background-image: href="assets/coding-train-br.jpg";
+  background: transparent url(../assets/coding-train-br.jpg) 50% 0 no-repeat;
   position: absolute;
 }
 
