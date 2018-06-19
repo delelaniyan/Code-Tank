@@ -102,7 +102,7 @@ h2, #scores {
 	margin:auto;
 	width:812px;
 	height:512px;
-	box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 25px rgba(20,0,300,0.5);
 	margin-bottom: 15px;
 }
 
@@ -116,7 +116,7 @@ h2, #scores {
 #restartScreen {
   width: inherit;
   height: inherit;
-  background: rgba(255,255,255,0.8);
+  background: rgba(155,155,255,400its .8);
   position: absolute;
   display: none;
 }
@@ -219,7 +219,7 @@ a.button.controls {
   background: -ms-linear-gradient(top,  #F29A33 0%,#EE7733 100%); /* IE10+ */
   background: linear-gradient(top,  #F29A33 0%,#EE7733 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F29A33', endColorstr='#EE7733',GradientType=0 ); /* IE6-9 */
-  color: white;
+  color: yellow;
   text-shadow: none;
   border: 1px solid #EE7733;
 }
