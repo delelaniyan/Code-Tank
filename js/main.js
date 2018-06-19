@@ -11,6 +11,10 @@ function setup() {
   mySound.loop();
 }
 
+function draw() {
+
+}
+
 var grid;
 var game;
 var player1, player2;
