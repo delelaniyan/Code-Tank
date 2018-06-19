@@ -116,7 +116,7 @@ h2, #scores {
 #restartScreen {
   width: inherit;
   height: inherit;
-  background: rgba(155,155,255,400its .8);
+  background: rgba(155,155,255,400.8);
   position: absolute;
   display: none;
 }
